@@ -1,0 +1,49 @@
+---
+title: "CAR00110"
+subtitle:  |
+ |  Aprendizado em Linguagem R: Estatística Descritiva I
+ |  Apostila I
+ |  RESPOSTAS DOS EXERCÍCIOS
+author: "Prof. Lucas Helal, MMSc, PhD"
+date: "2023-08-18"
+tags:  [R, Estatística, Sintaxe, Descritiva]
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 1.4 Exercícios
+
+$\\$ $\\$ *1.4.1. Operações matemáticas* $\\$ $\\$ - a) Você deve realizar 8 operações matemáticas básicas, sendo 2 para soma, 2 para subtração, 2 para multiplicação e 2 para divisão. Para cada tipo de operação, uma delas deve ser feita com números e a outra com objetos
+
+```{r operacoes, ECHO = TRUE}
+# SOMA: Primeiro exemplo 
+876+500
+# SOMA: Segundo exemplo 
+a<- 1876
+b<- 1500
+c<- a+b
+
+# SUBTRACAO: Primeiro exemplo 
+876-500
+# SUBTRACAO: Segundo exemplo 
+a<- 1876
+b<- 1500
+c<- a-b
+
+# MULTIPLICACAO: Primeiro exemplo 
+876*500
+# MULTIPLICACAO: Segundo exemplo 
+a<- 1876
+b<- 1500
+c<- a*b
+
+# DIVISAO: Primeiro exemplo 
+876/500
+# DIVISAO: Segundo exemplo 
+a<- 1876
+b<- 1500
+c<- a/b
+```
